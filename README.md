@@ -2,6 +2,8 @@
 
 # Event-Driven Backtesting System
 
+> This is just a minimum viable deliverable with my own notes, if you want to do it in a more systematic way please refer to https://www.quantstart.com/
+
 ## What is a event-driven system?
 As a Data Scientist or Quant Analyst, most of the daily programming application scenarios are Data analysis or strategy backtesting, which determines that the code written by such people is more throw-away scripts executed sequentially. The corresponding Programming approach is used to Procedure Oriented Programming.
 
@@ -366,7 +368,6 @@ while True:
                 portfolio.on_fill_event(event)    # Update position information based on transaction feedbacks
 ```
 
-> This is my own study notes, if you want to do it in a more systematic way please refer to https://www.quantstart.com/
 
 # Notes for trading cryptocurrency:
 Recently, I contacted many digital currency teams when I was looking for a job. After chatting with them, I found that most of them are concentrated in 4~5 exchanges with good liquidity. The futures are basically OKEX, Bitfinix and bitMEX, while the spot bitcoins is basically trading on Huobi and Binance.
@@ -470,3 +471,4 @@ signature = generate_signature(apiSecret, 'GET', '/api/v1/order', expires, 'symb
 
 print(signature)
 ```
+
