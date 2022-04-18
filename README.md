@@ -1,6 +1,6 @@
-
-
 # Event-Driven Backtesting System
+
+![pic5](/event_driven_mindmap.png "Event_Driven_System")
 
 > This is just a minimum viable deliverable with my own notes, if you want to do it in a more systematic way please refer to https://www.quantstart.com/
 
