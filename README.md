@@ -2,7 +2,7 @@
 
 ![pic5](/event_driven_mindmap.png "Event_Driven_System")
 
-> This is just a minimum viable deliverable with my own notes, if you want to do it in a more systematic way please refer to https://www.quantstart.com/
+> This is just a minimum viable deliverable with my own notes
 
 ## What is a event-driven system?
 As a Data Scientist or Quant Analyst, most of the daily programming application scenarios are Data analysis or strategy backtesting, which determines that the code written by such people is more throw-away scripts executed sequentially. The corresponding Programming approach is used to Procedure Oriented Programming.
@@ -471,4 +471,4 @@ signature = generate_signature(apiSecret, 'GET', '/api/v1/order', expires, 'symb
 
 print(signature)
 ```
-
+> if you want to do it in a more systematic way please refer to https://www.quantstart.com/
